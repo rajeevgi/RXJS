@@ -1,0 +1,12 @@
+<div class="container mt-3">
+    <h2>RxJS Basic Observable</h2>
+
+    <div class="mb-3">
+        <button class="btn btn-primary me-2" (click)="startObservable()">Start Observable</button>
+        <button class="btn btn-secondary" (click)="clearObservable()">Clear</button>
+    </div>
+
+    <div class="list-group">
+        <div class="list-group-item" *ngFor="let item of output">{{ item }}</div>
+    </div>
+</div>
